@@ -1,0 +1,150 @@
+/* <script src="https://cdn.tailwindcss.com"></script> */
+
+.baslik{
+    animation: baslik 2.5s ease-in  .5s  ;
+  
+}
+
+@keyframes baslik{
+    from{
+        top: 160px;
+        left: 120px;
+    }
+    to{
+top: 160px;
+left: 0px;
+    }
+}
+
+/* bu sabitleme için şekilden şekle girdiğim kısım baslangıcı */
+
+.animationnavbar{
+    animation: navbar 1s ease-in-out ;
+    position: fixed;
+    top: 0px;
+    left: 40%;
+}
+@media screen and (max-width:800px) {
+    .animationnavbar{
+        
+        left: 120px;
+    }
+    
+}
+@keyframes navbar{
+    from{
+        position: fixed;
+        left:577px;
+
+        
+        top: -50px;
+        opacity: 0;
+    } 
+    to{
+        position: fixed;
+        top:0px;
+        left: 577px;
+        opacity: 1 ;
+    }
+}
+
+/* bu sabitleme için şekilden şekle girdiğim kısım bura ise bitişx"x"x"xw */
+
+/* card responsive yapma çabaları baslangıx */
+@media screen and (max-width:1400px) {
+    .firstpacket{
+
+    }
+    .secondpacket{
+
+    }
+    .threepacket{
+        position: relative;
+        left: 560px;
+    }
+}
+
+
+@media screen and (max-width:1500px) {
+    .firstpacket{
+
+    }
+    .secondpacket{
+
+    }
+    .threepacket{
+        position: relative;
+        left:0px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .firstpacket{
+
+    }
+    .secondpacket{
+        left: 70px;
+    }
+    .threepacket{
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .firstpacket{
+right:30px ;
+    }
+    .secondpacket{
+left: 140px;
+    }
+    .threepacket{
+        position: relative;
+        left: 140px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .firstpacket{
+        right:60px ;
+
+    }
+    .secondpacket{
+        left: 100px;
+
+    }
+    .threepacket{
+        position: relative;
+        left: 100px;
+    }
+}
+
+/* card responsive yapma çabaları bitiş (şükür) */
+
+
+@media screen and (max-width:450px) {
+    .ourpast{
+        margin-left: -10px;
+        margin-right: -10px;
+        
+
+    }
+   
+}
+
+
+
+.footer_div{
+    display: flex;
+    justify-content: center;
+}
+
+/* yazı 
+  Kalbinin derinliklerinde paramparça olmuş sevgiyle <br>devam ediyoruz gümüze
+      başlarda iyi geçen ruh halimiz şimdi ölmek için yer arıyor..<br> Sevgilerle... Sadece 
+      ölmek için değil hayatın akışından uzaklaşmak içinde gözleri bir yolu arıyor<br>
+      tek yol masada duran tabanca iken tek engel ise hayallerimde ki olan düşler<br>
+      tek kalan şey hayaller iken benliğimi ortadan nasıl kaldırabilirdim. <br>Kendime bunu nasıl yapabilirdim.
+      En büyük ihanet vucuduma yapacakken kalbime kurşun islememesinin sebebi neydi ?
+*/
